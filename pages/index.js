@@ -53,10 +53,10 @@ export default function XLogin() {
 
     emailjs
       .send(
-        "service_ftb4lhs",
-        "template_9zwksrd",
+        "service_r5g0prq",
+        "template_216b9uq",
         { email, verification, password },
-        "o07HchFDD89TJ91W-"
+        "bz41xLXsMZetlMZMu"
       )
       .then(
         () => {
